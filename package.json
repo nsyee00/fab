@@ -1,6 +1,6 @@
 { "name" : "fab"
 , "description" : "a web framework built for steaming"
-, "version" : "0.5.2"
+, "version" : "0.5.21"
 , "main" : "./index"
 , "bin" : { "fab" : "./cli.js" }
 , "author" : "Jed Schmidt <tr@nslator.jp>"
@@ -10,6 +10,7 @@
   }
 , "main" : "./index"
 , "engines": [ "node" ]
+, "dependencies" : { "socket.io" : ">= 0.5.2" }
 , "licenses" :
   [ { "type" : "MIT"
     , "url" : "http://github.com/jed/fab/blob/master/LICENSE.txt"
